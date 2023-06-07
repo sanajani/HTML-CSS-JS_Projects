@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(
+        to bottom,
+        #eafbff 0%,
+        #eafbff 50%,
+        #5290f9 50%,
+        #5290f9 100%
+    );
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    width: 60%;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    transition: linear width 0.6s;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    overflow: hidden;
+    transition: width 0.6s linear;
+    width: 0;
+}
+
+nav ul.active{
+    width: 100%;
+}
+
+
+nav button{
+    display: flex;
+
+}
